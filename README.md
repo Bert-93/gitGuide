@@ -13,16 +13,19 @@ Some git command to update branches
 ### 2. Actualizar los braches un proyecto
 ```git fetch --all```
 
-# Escenario base
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+# Caso práctico combinar branches
 
 Tienes dos ramas:
 
  - dev → rama principal (la que se desplegará a producción)
  - dev_login_entraid → rama secundaria donde hiciste cambios (por ejemplo, integración con Azure Entra ID)
 
-# Combinar (merge) los cambios de dev_login_entraid en dev
+# Combinar (merge) los cambios de dev_new en dev
 
-Objetivo: incorporar los cambios de dev_login_entraid dentro de dev para llevar todo a producción.
+Objetivo: incorporar los cambios de dev_new dentro de dev para llevar todo a producción.
 
 ## Pasos a seguir:
 
@@ -39,7 +42,7 @@ Objetivo: incorporar los cambios de dev_login_entraid dentro de dev para llevar 
 ```git pull origin dev```
 
 ### 4. Fusiona los cambios de tu rama de trabajo
-```git merge dev_login_entraid```
+```git merge dev_new```
 
 
 ## Si hay conflictos
