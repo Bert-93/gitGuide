@@ -1,6 +1,18 @@
 # gitGuide
 Some git command to update branches
 
+# Verifica en la rama que nos encontramos
+
+```git branch```
+
+# Branches de un proyecto:
+
+### 1. Comprueba las ramas existentes en remoto
+```git branch -r```
+
+### 2. Actualizar los braches un proyecto
+```git fetch --all```
+
 # Escenario base
 
 Tienes dos ramas:
