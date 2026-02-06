@@ -1,6 +1,10 @@
 # gitGuide
 Some git command to update branches
 
+# Clonado de repositorios de git
+
+```git clone <url-branch>```
+
 # Verifica en la rama que nos encontramos
 
 ```git branch```
